@@ -1,8 +1,9 @@
 /*
  * Program to evaluate face values.
  * Source: Head First C Book
- * Chapter 1, page 9.
+ * Chapter 1, page 19.
  * "Author": Luiz Sol
+ * Date: 2016/02/17
  */
 
  #include <stdio.h>
@@ -23,6 +24,9 @@
  		val = 11;
  	else
  		val = atoi(card_name);
- 	printf("The card value is: %i\n", val);
+ 	if(val > 2 && val < 7)
+ 		puts("Count has gone up");
+ 	else if (val == 10)
+ 		puts("Count has gone down");
  	return 0;
  }
