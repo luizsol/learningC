@@ -1,0 +1,1 @@
+The problem was that the statement "char *jimmy = masked_raider;" just copied the address of the array "masked_raider" to the pointer "jimmy" and not it's contents.
