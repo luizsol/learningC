@@ -1,0 +1,15 @@
+1st example
+
+Files to be recompiled:
+graticule.c
+servo.c
+
+File to be relinked:
+ems
+
+______________________
+
+2nd example
+
+File to be relinked:
+galley
