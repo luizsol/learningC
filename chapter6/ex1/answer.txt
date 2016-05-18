@@ -1,0 +1,13 @@
+/*
+ * Solution to the first exercise of the 6th chapter regarding linked lists
+ * Source: Head First C Book
+ * Chapter 6, page 269
+ * Author: Luiz Sol
+ * Date: 2016/05/18
+ */
+
+//Original List
+Amity->Craggy->Isla Nublar->Shutter
+
+//New List
+Amity->Craggy->Skull->Isla Nublar->Shutter
