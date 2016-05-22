@@ -1,0 +1,12 @@
+1.How many pieces of data were left on the heap?
+	1 piece of data (A string)
+
+2.Whats was the piece of tada left on the heap?
+	The string "Loretta Barnsworth\0"
+
+3.Which line or lines of code caused the leak?
+	current->question = strdup(question);
+
+4.How do you plug the leak?
+	free(current->question);
+	current->question = strdup(question);
