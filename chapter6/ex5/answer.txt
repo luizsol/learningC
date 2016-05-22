@@ -1,0 +1,16 @@
+/*
+ * What’s my data structure?
+ * Source: Head First C Book
+ * Chapter 6, page 295
+ * Author: Luiz Sol
+ * Date: 2016/05/21
+ */
+
+Unidirectional Linked Lists: I can be used to store a sequence of items, and I make it easy to insert new items. But you can process me in only one direction.
+
+Binary tree: Each item I store can connect to up to two other items. I am useful for storing hierarchical information.
+
+Array: I can be used to associate two different types of data. For example, you could use
+to me to associate people’s names to their phone numbers
+
+Doubly Linked List: Each item I store connects to up to two other items. You can process me in two directions.
