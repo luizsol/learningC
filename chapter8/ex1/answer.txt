@@ -1,0 +1,14 @@
+/*
+ * Answer to the first exercise
+ * Source: Head First C Book
+ * Chapter 8, page 353
+ * Author: Luiz Sol
+ * Date: 2016/11/11
+ */
+
+The problem is on the lines:
+
+#include <encrypt.h>
+#include <checksum.h>
+
+because by doing so the precompiler will search for the headers encrypt.h and checksum.h on the standard libraries folders, but as previously stated, these head files are on the same directory as this code.
